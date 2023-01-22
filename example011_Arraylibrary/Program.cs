@@ -28,13 +28,31 @@
 // FillArray(array);
 // PrintArray(array);
 
-// //Пример№3:
+//Пример№3:
 void FillArray(int[] collection);
 
 void PrintArray(int[] col);
 
 int[] array = new int[10];
 FillArray(array);
+array[4] = 4;
+array[6] = 4;
 PrintArray(array);
-
-
+Console.WriteLine();
+//Пример№4:
+// int IndexOf(int[] collection, int find)
+// {
+//   int index = collection.Length;
+//   int count = 0; int position = 0;
+//   while (index < count)
+//   {
+//     If(collection[index] == find);
+//   {
+//       position = index;
+//     }
+//     index++;
+//   }
+//   Return position;
+// }
+// int pos = IndexOf(array, 4);
+// Console.WriteLine(pos);
